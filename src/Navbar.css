@@ -1,0 +1,75 @@
+.Navbar_container{
+  width: 100%;
+  height:10%;
+}
+.Navbar_top{
+  display:flex;
+  align-items: center;
+  justify-content:space-between;
+}
+.skyscanner_logo{
+  width: 300px;
+  height: 100px;
+}
+.flag_in_button{
+  width:20px;
+}
+.Navbar_top_right{
+  display: flex;
+  align-items: center;
+}
+.navbar_button_top{
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+  padding: 10px;
+  border-radius:7px;
+  border: 3px solid rgb(198, 198, 198);
+  border-width: 4px;
+}
+.Navbar_top_right Button:hover{
+  border-color:#538dff ;
+}
+.navbar_help_top{
+  color: #538dff;
+  font-size: 20px;
+  cursor: pointer;
+}
+.Navbar_top_right a:hover{
+   text-decoration:underline;
+}
+.navbar_button_top2{
+  color: #538dff;
+  font-weight: bold;
+}
+.Navbar_bottom{
+  display: flex;
+  flex-direction: row;
+}
+.navbar_bottom_buttons{
+  background-color: #538dff;
+  padding:10px;
+  margin-right: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 100px;
+  justify-content: center;
+}
+.button_color{
+  background-color:#00339a;
+  margin-left: 20px;
+}
+.navbar_buttons_icons{
+  font-size:20px;
+  padding-right: 5px;
+}
+.Navbar_bottom Button:hover{
+  background-color:#00339a
+}
