@@ -1,3 +1,27 @@
 *{
   margin: 0;
 }
+
+.feedback_button{
+  background-color: #538dff;
+  padding:10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  width: 200px;
+  height:56px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.feedback_side_button_container{
+  margin: 0;
+  height: 104px;
+  width: 104px;
+  position: fixed;
+  top: 45%;
+  transform: rotate(-90deg);
+  right:-50px; 
+  
+}

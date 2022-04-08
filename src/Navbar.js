@@ -17,7 +17,7 @@ function Navbar() {
         <div className="Navbar_top_right">
           <a className="navbar_help_top" >Help</a>
           <Button className="navbar_button_top">English (UK) <img src={flag} className="flag_in_button"/> India ₹INR</Button>
-          <Button className="navbar_button_top navbar_button_top2">Log In</Button>
+          <Button className="navbar_button_top navbar_button_top2"><h2>Log In</h2></Button>
         </div>
       </div>
       <div className="Navbar_bottom">
@@ -26,6 +26,7 @@ function Navbar() {
         <Button className="navbar_bottom_buttons"><GiCityCar className="navbar_buttons_icons"/>Car Hire</Button>
       </div>
     </div>
+    
   )
 }
 

@@ -1,0 +1,36 @@
+.SearchFlights_container{
+  background-image: url("https://i.pinimg.com/originals/f2/c8/91/f2c89128eb0f2b9d3495452045e200cd.jpg");
+  width:100%;
+  background-size: cover;
+  height:600px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.heading{
+  color:white;
+  font-size:58px;
+  margin-top: 40px;
+  font-family: "roboto", "Helvetica Neue",;
+  padding:40px; 
+  margin-left: 15px;
+  margin-right: 15px;
+  font-weight: 600;
+}
+.flightsbooking_container{
+  background-color:#00063c;
+  width: 90%;
+  height: 60%;
+  border-radius:10px;
+  color:#fff;
+}
+.flights_radio{
+  font-size:100px;
+  margin-left: 30px;
+}
+.flights_radio_buttons{
+  margin: 10px;
+  font-size: 25px;
+}
