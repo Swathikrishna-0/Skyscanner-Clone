@@ -2,10 +2,9 @@
   background-image: url("https://i.pinimg.com/originals/f2/c8/91/f2c89128eb0f2b9d3495452045e200cd.jpg");
   width:100%;
   background-size: cover;
-  height:600px;
+  height:55%;
   display:flex;
   flex-direction: column;
-  align-items: center;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -18,19 +17,91 @@
   margin-left: 15px;
   margin-right: 15px;
   font-weight: 600;
+  width: 90%;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 .flightsbooking_container{
   background-color:#00063c;
-  width: 90%;
-  height: 60%;
+  width: 90vw;
+  height: 50%;
+  margin-left:5%;
   border-radius:10px;
   color:#fff;
+  margin-bottom:30px;
 }
 .flights_radio{
-  font-size:100px;
+  width:25px;
+  height:20px;
   margin-left: 30px;
 }
 .flights_radio_buttons{
   margin: 10px;
+  margin-top: 20px;
   font-size: 25px;
+}
+.flights_input_text_container{
+  display:flex; 
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 90%;
+}
+.flights_textinput{
+  height:40px;
+  width:100%;
+}
+.flights_textinput2{
+  width:100px;
+}
+.tick_boxes{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.tick_boxes_container{
+  display:flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.tick_boxes_column1{
+  margin-left:40px;
+  margin-top: 20px;
+}
+.tick_boxes_column2{
+  margin-left:40px;
+  margin-top: 20px;
+}
+.flights_tickboxes_p{
+  padding-left: 10px;
+  font-size: 20px;
+}
+.flights_tickboxes{
+  width: 20px;
+  height: 20px;
+}
+.flights_Button{
+  margin-left:20%;
+  display:flex;
+  align-items:center;
+  margin-right: 5%;
+  justify-content:center;
+}
+
+.Search_flights_button{
+  background-color:rgb(1, 124, 114);
+  border: none;
+  border-radius: 10px;
+  width:300px;
+  color: white;
+  font-size: 30px;
+  height:60px;
+  font-weight: bold;
+}
+.flights_Button Button:hover{
+  background-color:rgb(1, 98, 90);
+  cursor: pointer;
+}
+.sidearrow{
+  font-size: 20px;
 }

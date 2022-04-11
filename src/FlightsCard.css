@@ -1,0 +1,25 @@
+.card_container{
+  width: 100%;
+  background-color: rgb(241, 241, 241);
+  margin-top: 80px;
+  padding-top: 30px;
+}
+.card{
+  width:90%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.cards_container{
+  display: flex;
+  justify-content:space-between;
+}
+.image{
+  height: 130px;
+  width: 130px;
+  margin-bottom: 15px;
+}
+.image_2{
+  height: 110px;
+  width: 110px;
+  margin-bottom: 35px;
+}

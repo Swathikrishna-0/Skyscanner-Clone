@@ -1,0 +1,23 @@
+.BriefDescrip_container{
+  width:90%;
+  display:flex; 
+  justify-content:center;
+  align-items:center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 40px;
+}
+.BriefDescrip_boxes{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding: 15px;
+}
+.image{
+  width: 100px;
+  height: 100px;
+}
+.BriefDescrip_para{
+  font-size: 18px;
+  font-weight: bold;
+}
